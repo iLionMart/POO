@@ -5,7 +5,7 @@ public class MetodosSeno {
         Seno obs = new Seno();
         obs.leer();
         obs.calcular();
-        obs.mostrar();
+        System.out.println(obs.mostrar());
 
     }
 }
